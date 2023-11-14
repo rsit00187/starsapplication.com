@@ -1,0 +1,242 @@
+/*div instagram */
+.mobilebr{
+    display: none;
+}
+.maindiv1{
+    width: 1520px;
+    height: 750px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border: 2px solid black;
+}
+.divinstagram, .divfasebook, .divwhatsup , .divgmail, .divflipkart, .divamazone, .divmovei1, .divmovei2, .divgdrive, .divtwitter{
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* start hover efact*/
+.divinstagram:hover{
+    background: linear-gradient(blue,hotpink,hotpink,yellow);
+}
+
+.divwhatsup:hover{
+    background: linear-gradient(limegreen,lime);
+}
+.divfasebook:hover{
+    color: #fff;
+    background: royalblue;
+}
+.divgmail:hover{
+    background: red;
+}
+.divtwitter:hover{
+    background: skyblue;
+}
+.divamazone:hover{
+    background: orange;
+}
+.divgdrive:hover{
+    background: linear-gradient(yellow,blue,green);
+}
+.divinstagram, .divfasebook, .divwhatsup, .divgmail, .divflipkart, .divamazone, .divmovei1, .divmovei2, .divgdrive, .divtwitter h2,p{
+    text-align: center;
+}
+.divinstagram ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divfasebook ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;    
+}
+.divwhatsup ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divgmail ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.
+.divmovei2 ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divtwitter ion-icon{
+    width: 90px;
+    height: 90px;
+    margin-left: 75px;
+    align-items: center;
+}
+.divamazone ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divmovei1 ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divmovei2 ion-icon{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+.divgdrive svg{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+/*mobile edit start*/
+
+@media screen and (max-width:600px){
+ .pcbr{
+    display: none;
+ }   
+ .mobilebr{
+    display: block;
+ }
+.maindiv1{
+    width: 400px;
+    height: 1250px;
+    margin-left: 0px;
+    padding-left: 37px;
+    padding-top: 20px;
+    border: 2px solid black;
+}
+.divinstagram, .divfasebook, .divwhatsup , .divgmail, .divflipkart, .divamazone, .divmovei1, .divmovei2, .divgdrive, .divgdrive, .divtwitter{
+    width: 150px;
+    height: 90px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.divinstagram, .divfasebook, .divwhatsup, .divgmail, .divflipkart, .divamazone, .divmovei1, .divmovei2, .divgdrive, .divtwitter h2,p{
+    text-align: center;
+}
+.divinstagram, .divfasebook, .divwhatsup, .divgmail, .divflipkart, .divamazone, .divmovei1, .divmovei2, .divgdrive, .divtwitter h2{
+    font-size: 12px;
+}
+.divinstagram ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divfasebook ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;    
+}
+.divwhatsup ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divgmail ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divtwitter ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divamazone ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divmovei1 ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divmovei2 ion-icon{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.divgdrive svg{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+}
+/*main instagram page*/
+.minsta{
+    margin-left: 50px;
+}
+.minsta ion-icon{
+    width: 130px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #000;
+}
+.minsta .buttond{
+    width: 175px;
+    height: 80px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.minsta .buttond h1,.buttono h1{
+    margin-top: 15px;
+}
+.minsta .buttono{
+    width: 175px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -80px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+@media screen and (max-width:600px){
+.minsta{
+    width: 400px;
+    height: 300px;
+    margin-left: 0px;
+    border: 2px solid transparent;
+}
+.minsta ion-icon{
+    width: 130px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #000;
+}
+.minsta .buttond{
+    width: 175px;
+    height: 80px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.minsta .buttond h1,.buttono h1{
+    margin-top: 15px;
+}
+.minsta .buttono{
+    width: 175px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -80px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+}
+/*scarch filter*/
