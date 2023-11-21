@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starsapplication</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    color: rgb(2, 2, 2);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background:orangered; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+.left h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.list input{
+    
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 450px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-left: -165px;
+  margin-bottom: 12px;
+}
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.right ul li a:hover {
+    background-color: #fff;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+.navbar a img{
+    display: none;
+}
+.compnayname{
+    display: none;
+}
+@media screen and (max-width:805px) {
+    .list {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(22, 7, 36);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+    }
+    .list input{
+        display: none;
+    }
+    
+.navbar a img{
+    width: 30px;
+    height: 30px;
+    margin-left: -60px;
+    margin-top: 12px;
+}
+.compnayname{
+    display: block;
+}
+.compnayname a:hover{
+    background-color: transparent;
+}
+.compnayname h1{
+    color: blue;
+}
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+}
+</style>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <h1>star apps</h1>
+        </div> 
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <a href="search.html"><img src="#"></a>
+            <ul class="list">
+                <li><a href="search.html"><input placeholder="click to search"></a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="compnayname"><a href="#"><h1><sup style="color: #fff; font-size: 12px;">powerd by</sup>Npstar52</h1></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mface">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <h1 style="font-family: cursive; margin-left: 20px;"> Facebook</h1><br>
+        <a href="https://drive.google.com/file/d/1XntMNkWm7xsJCbEA2oBQR8jEtTW6UTBZ/view?usp=sharing" download>
+        <div class="buttond">
+            <h1>Downlode</h1>
+        </div>
+        </a>
+        <a href="https://www.instagram.com/">
+        <div class="buttono">
+            <h1>Online</h1>
+        </div>
+        </a>
+    </div>
+    <br><hr><br>
+    
+    <div class="maindiv1">
+        <a href="instagram.html">
+        <div class="divinstagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <h2>Instagram</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <a href="WhatsApp.html">
+        <div class="divwhatsup">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <h2>What's up</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <br class="mobilebr">
+        <br class="mobilebr">
+        <a href="facebook.html">
+        <div class="divfasebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <h2>Facebook</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <a href="gmail.html">
+        <div class="divgmail">
+            <ion-icon name="mail-outline"></ion-icon>
+            <h2>Gmail</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <br class="mobilebr">
+        <br class="mobilebr">
+        <a href="flipkart.html">
+        <div class="divfasebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <h2>Facebook</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <!--strat next line-->
+        <br class="pcbr"><br class="pcbr"><br class="pcbr"><br class="pcbr">
+        <!--strat next line-->
+        <a href="twitter.html">
+        <div class="divtwitter">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <h2>Twitter</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <br class="mobilebr">
+        <br class="mobilebr">
+        <a href="amazone.html">
+        <div class="divamazone">
+            <ion-icon name="logo-amazon"></ion-icon>
+            <h2>Amazon</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <a href="movei1.html">
+        <div class="divmovei1">
+            <ion-icon name="videocam-outline"></ion-icon>
+            <h2>MKV cenamas</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <br class="mobilebr">
+        <br class="mobilebr">
+        <a href="movei2.html">
+        <div class="divmovei2">
+            <ion-icon name="videocam-outline"></ion-icon>
+            <h2>Vagamoves</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+        <a href="gdrive.html">
+        <div class="divgdrive">
+            <svg xmlns="http://www.w3.org/2000/svg" height="5.6em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M339 314.9L175.4 32h161.2l163.6 282.9H339zm-137.5 23.6L120.9 480h310.5L512 338.5H201.5zM154.1 67.4L0 338.5 80.6 480 237 208.8 154.1 67.4z"/></svg>
+            <h2>Google Drive</h2>
+            <p>downlode & online</p>
+        </div>
+        </a>
+    </div>
+    </body>
+    </html>
